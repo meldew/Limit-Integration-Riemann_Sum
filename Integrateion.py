@@ -7,7 +7,7 @@ from matplotlib.patches import Polygon
 
 # Calculates Limit Integral using Reimanns sum Right rule
 # Where a and b are integral limits and N are number of iterations of the sum(numer of Rectangles)
-# Calculates result, and plot two plot where the first plot illustrates Rectangles on the graph and the
+# Calculates result, and plots two plot where the first plot illustrates Rectangles on the graph and the
 # second plot illustrates the overall area under the function
 funk = "(5*x+2)"
 a, b = -2, 3
