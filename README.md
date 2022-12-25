@@ -11,6 +11,7 @@ Calculates result, and plot two plot where the first plot illustrates Rectangles
 second plot illustrates the overall area under the function
 
 File is able to plot :
+
 ![image](https://user-images.githubusercontent.com/47281451/209481568-764539aa-9c7c-47fd-b312-6d2563473ddf.png)
 
 
