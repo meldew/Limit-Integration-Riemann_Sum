@@ -1,6 +1,6 @@
 # Riemann_Integration
 
-This is my Integration test file
+This is my (just for fun) Integration test file
 
 Calculates Limit Integral using Reimanns sum Right rule : 
 ![image](https://user-images.githubusercontent.com/47281451/209481583-b4c790a3-6a62-4d8e-9b78-2c5a1dc9ebff.png)
