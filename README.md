@@ -13,6 +13,15 @@ File is able to plot :
 
 ![image](https://user-images.githubusercontent.com/47281451/209481568-764539aa-9c7c-47fd-b312-6d2563473ddf.png)
 
+Exemple with : ![image](https://user-images.githubusercontent.com/47281451/210006655-46b774dd-bfd9-4153-ab8d-918ed410a25b.png)
+![image](https://user-images.githubusercontent.com/47281451/210006674-42e9bc92-150d-4479-8958-a60cf1fdb9e7.png)
+![image](https://user-images.githubusercontent.com/47281451/210006724-e09c9d37-11f4-4ff5-b37c-e3ef8836751d.png)
+![image](https://user-images.githubusercontent.com/47281451/210006755-28f7592b-dc74-4f62-800d-9df6e8faafcc.png)
+
+
+
+
+
 
 Pictures are from : 
 https://en.wikipedia.org/wiki/Riemann_sum
