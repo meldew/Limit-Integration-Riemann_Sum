@@ -1,4 +1,4 @@
-29.12.2022 Rev 2.0 Update Log: 
+# 29.12.2022 Rev 2.0 Update Log: 
  
 Now you can use the code like a single function as a Module or a Lib. I did clean the code so it looks more readable, i also did remove the second plot, 
 so now function returns the Riemass sum and plots the Rectangles it takes to calulate the sum with.
