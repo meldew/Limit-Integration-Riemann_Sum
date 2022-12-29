@@ -7,9 +7,14 @@ from time import perf_counter
 # Calculates Limit Integral using Reimanns sum Right rule
 # Where a and b are integral limits and N are number of iterations of the sum(numer of Rectangles)
 # Calculates result, and plot two plot where the first plot illustrates Rectangles, Numer of Retangles depands on N
-funk = "x**2"
-a, b = 0, 1
-N = 10000
+
+#Eksemple Code:#
+
+#funk = "x**2"
+#a, b = 0, 1
+#N = 10000
+
+
 #
 #
 #
