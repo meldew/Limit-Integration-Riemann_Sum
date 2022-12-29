@@ -23,7 +23,7 @@ def RightReimannsSum(a, b, N,funk):
 
     # Configure plot and write out Integral result
     RectangleCounter = 0
-    threadnumber = 10
+    threadnumber = 4
     partOfArray = N / threadnumber
     deltax = (b-a)/N #  Delta X
     sumArea = 0
