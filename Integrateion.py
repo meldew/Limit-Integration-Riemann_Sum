@@ -29,11 +29,11 @@ def RightReimannsSum(a, b, N,funk):
     # Configure plot and write out Integral result
     RectangleCounter = 0
     threadnumber = 4
-    partOfArray = N / threadnumber
-    deltax = (b-a)/N #  Delta X
     sumArea = 0
-
-    # calculate integral
+    partOfArray = N / threadnumber
+    
+    # Calculate integral
+    deltax = (b-a)/N #  Delta X
     for i in range(N):
         endpointX = a + deltax*i
         sumArea += deltax * func(endpointX)
@@ -49,7 +49,6 @@ def RightReimannsSum(a, b, N,funk):
             polyArray.append(poly)
     CreateRectangles()
 
-    # Add Region to plot
     start = 0
     end = partOfArray
     fig, ax = plt.subplots()
@@ -57,8 +56,10 @@ def RightReimannsSum(a, b, N,funk):
     ax.set_title(r"$\int_a^b" + funk + "\mathrm{d}x = $" + str(sumArea))
     ax.set_ylim(bottom=0)
 
+    # Split Rectangles in groups and run patch of those regions on separate Threads
     def AddRegionToPlot(start, end):
         if end <= N:
+            # Add Region to plot
             for x in range(int(start), int(end)):
                 ax.add_patch(polyArray[x])
 
@@ -71,6 +72,7 @@ def RightReimannsSum(a, b, N,funk):
         start += partOfArray
         end += partOfArray
 
+    #Wait Until all Threads finish the work
     for t in threads:
         t.join()
     end_time = perf_counter()
