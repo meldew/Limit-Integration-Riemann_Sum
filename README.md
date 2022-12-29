@@ -7,8 +7,7 @@ Calculates Limit Integral using Reimanns sum Right rule :
 ![image](https://user-images.githubusercontent.com/47281451/209481592-764400b3-52a8-4f07-a03b-1f9526525ffe.png)
 
 where a and b are integral limits and N are number of iterations of the sum(numer of Rectangles)
-Calculates result, and plot two plot where the first plot illustrates Rectangles on the graph and the
-second plot illustrates the overall area under the function
+Calculates result, and plot two plot where the first plot illustrates Rectangles on the graph.
 
 File is able to plot :
 
