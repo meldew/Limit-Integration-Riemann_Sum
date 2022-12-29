@@ -1,3 +1,9 @@
+from threading import Thread
+import numpy as np
+from matplotlib import pyplot as plt
+from matplotlib.patches import Rectangle
+from time import perf_counter
+
 # Calculates Limit Integral using Reimanns sum Right rule
 # Where a and b are integral limits and N are number of iterations of the sum(numer of Rectangles)
 # Calculates result, and plot two plot where the first plot illustrates Rectangles, Numer of Retangles depands on N
